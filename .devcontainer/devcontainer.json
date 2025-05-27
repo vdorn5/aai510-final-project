@@ -1,7 +1,7 @@
 {
     "name": "devbox-AAI",
     "build": {
-        "dockerfile": "Containerfile"
+        "dockerfile": "Dockerfile"
     },
     "customizations": {
         "vscode": {
