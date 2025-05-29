@@ -1,0 +1,28 @@
+[project]
+name = "aai510-final-project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Spencer",email = "swcody@ucsc.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter (==1.1.1)",
+    "numpy (==2.2.6)",
+    "pandas (==2.2.3)",
+    "matplotlib (==3.10.3)",
+    "scikit-learn (==1.6.1)",
+    "scipy (==1.15.3)",
+    "seaborn (==0.13.2)",
+    "nbconvert (==7.16.6)",
+    "ucimlrepo (==0.0.7)",
+    "jupyterlab (>=4.4.3,<5.0.0)",
+]
+[tool.poetry]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
