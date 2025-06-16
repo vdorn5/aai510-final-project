@@ -10,3 +10,4 @@ ucimlrepo==0.0.7
 statsmodels==0.14.4
 pyarrow==20.0.0
 tensorflow==2.19.0
+imbalanced-learn==0.13.0
